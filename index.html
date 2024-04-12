@@ -15,8 +15,8 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
-            background-image: url(imagen/ponto.jpg);
-            background-repeat: no-repeat;
+           
+           
 
         }
 
@@ -26,20 +26,25 @@
         }
 
         .nav1{
-            display: flex;
-            height: 70px;
+            background-color: rgb(44, 44, 44);
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            position: absolute;
+            width:100%;
+            
+  
             }
 
          ul{
-         
+            
             list-style-type: none;
             margin: 10px 400px;
             padding: 0;
-          
-            }
+        }
 
-            ul li{
-           float: left; 
+         ul li{
+                float: left; 
            padding: 5px;
         }
 
@@ -53,25 +58,24 @@
           line-height: 40px;
           background: rgb(113, 113, 114);
           border-radius: 5px;
-         
         }
 
         a:hover{
             background: black;
             color: aliceblue;
         }
-    
 
         .cont2{
             float: left;
             border: 1px solid rgb(0, 0, 0);
-            padding: 10px;
-            margin: 10px;
-            margin-left: 110px;
+            padding: 1px;
+            margin: 11px;
+            position: relative;
+            bottom: 30px;
+           left: 307px;
             border-radius: 10px;
             background: black;
             color: aliceblue;
-
         }
         
         h1{
@@ -81,85 +85,25 @@
             text-shadow: 2px 2px 0px rgb(148, 129, 129);
         }
 
-/*parei aqui*/
-header{
-    background-color: rgb(65, 65, 65);
-    box-shadow: 0px 3px 10px black;
-  
-   
-}
+        .imagen{
+            background:   url(imagen/ponto.jpg) ;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 600px;
+        }
 
-.nav1{
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-  
-}
-
-
-.nav-lista {
-    display: flex;
-  align-items: center;
-}
-
-.nav-lista ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-
-   
-}
-
-.nav-item{
-    margin: 0 15px;
-}
-
-
-.nav-link {
-    text-decoration: none;
-    font-size: 1em;
-    color: aliceblue;
-
-}
-
-
-
-
-
-section {
- 
-    border: solid 1px rgb(156, 156, 156);
-    width: 400px;
-    height: 300px;
-    position: relative;
-    top: 30px;
-    margin: auto ;
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px black;
-}
-
-
-   
-
-
-
-
-footer{
-    background-color: rgb(44, 44, 44);
-    color: white;
-    text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
-    position: absolute;
-    bottom:0;
-    width:100%;
-    margin: auto auto;
-    padding: 10px 5px;
-   
-  
-}
+        footer{
+            background-color: rgb(44, 44, 44);
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            position: absolute;
+            bottom:0;
+            width:100%;
+            margin: auto auto;
+            padding: 10px 5px;
+        
+        }
     </style>
 </head>
 <body>
@@ -179,7 +123,8 @@ footer{
               </ul>
             </div>
         </nav>
-      </header>
+      </header><br><br><br><br><br><br>
+
 
     <div class="container2">
         <div class="cont2"><h1>Produto com Frete Grátis</h1></div>
@@ -187,6 +132,12 @@ footer{
         <div class="cont2"><h1>Bailão de aniversário</h1></div>
         <div class="cont2"><h1>Desconto no Pix</h1></div>
     </div>
+
+  
+         <div class="imagen">
+          
+        </div>
+    
 
 
   <footer>
