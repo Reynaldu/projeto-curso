@@ -2,7 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Document</title>
     <style>
 
@@ -17,7 +19,7 @@
         }
 
         .nav1{
-            background-color: rgb(44, 44, 44);
+            background-color: rgb(0, 0, 0);
             color: white;
             text-align: center;
             font-size: 0.8em;
@@ -62,7 +64,7 @@
             padding: 1px;
             margin: 11px;
             position: relative;
-            bottom: 30px;
+            bottom: 60px;
             left: 307px;
             border-radius: 10px;
             background: black;
@@ -82,7 +84,6 @@
             background-repeat: no-repeat;
             height: 600px;
            
-          
         }
       
         footer{
@@ -97,13 +98,164 @@
             padding: 10px 5px;
         
         }
+
+        /*media  celular */
+
+        @media (max-width:575.98px) {
+            .nav1{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            position: absolute;
+            width: 500px;
+            height: 60px;
+            }
+
+         ul{
+            margin-left: 30px;
+        }
+
+        ul li{
+           
+           padding: 9px;
+           width: 100px;
+           font-size: 12px;
+        }
+
+        ul a{
+          width: 95px;
+          height: 40px;
+          display: block;
+          color: rgb(255, 251, 251);
+          text-decoration: none;
+          text-indent: 8px;
+          line-height: 30px;
+          background: rgb(113, 113, 114);
+          border-radius: 5px;
+        }
+
+    .container2{
+       width: 490px;
+       display: block;
+  
+    }
+
+        .cont2{
+            width: 93px;
+            float: left;
+            border: 1px solid rgb(0, 0, 0);
+            position: relative;
+            bottom: 60px;
+            left: 10px;
+            border-radius: 10px;
+            background: black;
+            color: rgb(255, 251, 251);
+        }
+
+        h1{
+            font-size:12px;
+            text-align: center;
+            text-shadow: 2px 2px 0px rgb(10, 10, 10);
+        }
+
+        .imagen{
+            background:  url(imagen/ponto.jpg) ;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 500px;
+            height: 400px;
+           margin-top: 20px;
+           
+          
+        }
+        }
+        
+
+         /*media  tablets */
+        @media (min-width:576px) and (max-width:767.98px) {
+            body {
+            background:rgb(180, 39, 39);
+           
+           }
+           
+            
+          .container{
+            width: 400px;
+            height: 400px;
+            margin-bottom: 100px;
+          }
+
+          ul  a{
+            width: 70px;
+            margin: 1px;
+            position: relative;
+            right: 10px;
+            text-indent: -1px;
+            
+          }
+
+          p{
+            font-size: 15px;
+          }
+
+           
+        }
+
+         /*media  tablets */
+
+        @media (min-width:768px) and (max-width:991.98px) {
+            body {
+            background:rgb(0, 0, 0);
+           
+           }
+
+            
+          .container{
+            width: 400px;
+            height: 400px;
+            margin-bottom: 100px;
+          }
+
+          a{
+            font-size:10px;
+            font-weight: bolder;
+            
+         
+          }
+
+          ul  a{
+            width: 70px;
+            margin: 1px;
+            position: relative;
+            right: 10px;
+            text-indent: -1px;
+            
+          }
+
+          p{
+            font-size: 15px;
+          }
+
+        } 
+
+         /*media  tv */
+        @media  (min-width:992px) and (max-width:1199.98px) {
+            body {
+           
+           background: red;
+           }
+
+       
+        }
+        
     </style>
     
 </head>
-<body>
+<body id="home">
     <header>
         <nav class="nav1">
-            <div class="nav-lista">
+            
               <ul>
                   <li class="nav-item">
                     <a href="games.html" target="" class="nav-link">GAMES</a>
@@ -115,7 +267,7 @@
 
                   <li class="nav-item"><a href="tv.html" target="" class="nav-link">TV</a></li>
               </ul>
-            </div>
+            
         </nav>
       </header><br><br><br><br><br><br>
 
