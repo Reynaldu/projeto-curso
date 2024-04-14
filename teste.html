@@ -1,22 +1,77 @@
-ul  a{
-    width: 70px;
-    margin: 1px;
-    position: relative;
-    right: 10px;
-    text-indent: -1px;
-    
-  }
-  a{
-    font-size:10px;
-    font-weight: bolder;
-    
- 
-  }
-
-  a{
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUNU DROP</title>
+  <style>
+         .dp-menu ul{
+          list-style-type: none;
+          padding: 0;
+          
          
-    font-size:10px;
-    font-weight: bolder;
-    margin-left: 30px;
- 
-  }
+         }
+
+        .dp-menu ul{
+          background-color: brown;
+        
+         }
+
+         .dp-menu ul li{
+          display: inline;
+          position: relative;
+         
+         }
+
+         .dp-menu ul li a{
+          color: aliceblue;
+          text-decoration: none;
+          padding:20px;
+          
+         }
+
+         .dp-menu ul li a:hover{
+          background-color: antiquewhite;
+         }
+
+         /*sub menu*/
+
+         .dp-menu ul ul{
+          display:none ;
+          left: 0;
+          position: absolute;
+         }
+
+         .dp-menu ul li:hover ul{
+          display:block;
+         }
+
+         .dp-menu ul ul{
+          width: 100px;
+         }
+         .dp-menu ul ul li a{
+          display: block;
+          
+         }
+  </style>
+</head>
+<body>
+          <nav class="dp-menu">
+              <ul>
+                    <li><a href="#">home</a></li>
+
+                            <li><a href="#">produtos</a>
+                                    <ul>
+                                      <li><a href="#">produto1</a></li>
+                                      <li><a href="#">produto2</a></li>
+                                      <li><a href="#">produto3</a></li>
+                                    </ul>
+                            </li>
+                  
+                    <li><a href="#">contatos</a></li>
+                    <li><a href="#">quem somos</a></li>
+              </ul>
+          </nav>
+
+</body>
+</html>
